@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+*{
+		padding:0;
+		margin:0;
+		font-family: Georgia, serif;
+	}
+	
+	body{
+		/* background:url(/images/admin/homeBackground.jpg) no-repeat; */
+		background-size:cover;
+		background-color: #fffefe;
+		margin:0;
+		height:100%;
+		overflow:hidden;
+
+	}
+	
+	ul {
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #171c24;
+  		position: fixed;
+  		top: 0;
+  		width: 100%;
+	}
+	
+	li a {
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		float:left;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+  		background-color: #26d;
+	}
+	
+	
+	.main{
+		position:absolute;
+		width:500px;
+		height:750px;
+		/* top:20%; */
+		left:35%;
+		margin-top:50px;
+	}
+	.main input {
+		font-size:16px;
+		 width:60%; 
+		padding:3px 2px; 
+		border:0;
+		outline:none;
+		border-radius:5px;
+		border:3px solid #ccc;
+		border-color: #171c24;
+	}
+	.main label {
+		font-size:17px;
+		margin:10px; 
+		margin-left:15px;
+		color:#3d251e;
+		float:left;
+	}
+	.main legend {
+		font-size:30px;
+		text-align:center;
+		text-transform:uppercase;
+		margin:40px 0;
+		color:#26d;
+	}
+	.main button {
+		font-size:10px;
+		font-weight:bold;
+		margin:20px 0;
+		padding:10px 15px;
+		width:40%;
+		border-radius:5px;
+		border:0;
+		color:#fff;
+		background-color:#171c24;
+	}
+	
+	.main button:hover{
+		background-color: #26d;
+	}
+	
+	.bootomNavBar{
+		overflow: hidden;
+  		position: fixed;
+  		bottom: 0;
+  		width: 100%;
+  		color: #26d;	
+  		background-color: #171c24;
+	}
+	
+	.formContainer{
+		height:800px;
+		width:300px;
+		background-color:yellow;
+	}
+	
+	fieldset {
+	border-color: #171c24;
+}
